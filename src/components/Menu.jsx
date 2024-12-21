@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Menu.css";
+
 const Menu = ({ menuOpen, closeMenu }) => {
   return (
     <nav className="nav-menu">
