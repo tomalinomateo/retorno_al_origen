@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Banner from "./components/Banner";
-import Sesiones from "./components/Sesiones";
-import Formaciones from "./components/Formaciones";
-import SobreMi from "./components/SobreMi";
+import Banner from "./components/home/Banner";
+import Sesiones from "./components/home/Sesiones";
+import Formaciones from "./components/home/Formaciones";
+import SobreMi from "./components/home/SobreMi";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
