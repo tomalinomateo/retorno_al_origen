@@ -1,6 +1,6 @@
 import React from "react";
 
-function Sesiones() {
+const Sesiones = () => {
   return (
     <section id="sesiones">
       <div className="content">
@@ -20,6 +20,6 @@ function Sesiones() {
       </div>
     </section>
   );
-}
+};
 
 export default Sesiones;

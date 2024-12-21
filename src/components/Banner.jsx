@@ -1,6 +1,6 @@
 import React from "react";
 
-function Banner({ scrollToSection }) {
+const Banner = ({ scrollToSection }) => {
   return (
     <section id="banner">
       <div className="banner-text">
@@ -13,6 +13,6 @@ function Banner({ scrollToSection }) {
       ></div>
     </section>
   );
-}
+};
 
 export default Banner;

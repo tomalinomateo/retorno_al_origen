@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({ menuOpen, toggleMenu, closeMenu }) {
+const Header = ({ menuOpen, toggleMenu, closeMenu }) => {
   return (
     <header>
       <div className="logo">
@@ -79,6 +79,6 @@ function Header({ menuOpen, toggleMenu, closeMenu }) {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;
