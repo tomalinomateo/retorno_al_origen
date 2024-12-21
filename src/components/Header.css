@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.header-title {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-title .subtitle {
+  font-size: 0.4em;
+  color: var(--primary-color);
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 1px;
+  text-transform: initial;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger-menu div {
+  width: 30px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu.open div:nth-child(1) {
+  transform: rotate(45deg) scale(1.2) translate(6px, 6px); /* animates the hamburger top line */
+  background-color: var(--secondary-color);
+}
+
+.hamburger-menu.open div:nth-child(2) {
+  opacity: 0; /* hides the middle line */
+}
+
+.hamburger-menu.open div:nth-child(3) {
+  transform: rotate(-45deg) scale(1.2) translate(6px, -5px); /* animates the hamburger bottom line */
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-title .subtitle {
+    font-size: 0.5em;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
