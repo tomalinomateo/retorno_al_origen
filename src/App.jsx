@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <header>
         <div className="logo">
-          <img src="src/photos/logo-sin-texto.jpg" alt="Logo" />
+          <img src="/photos//logo-sin-texto.jpg" alt="Logo" />
           <h1 className="header-title">
             Retorno al Origen{" "}
             <span className="subtitle">por M. Cruz Lanteri</span>
@@ -65,7 +65,7 @@ function App() {
                 className="social-icon"
               >
                 <img
-                  src="src/photos/instagram.png"
+                  src="/photos//instagram.png"
                   alt="Instagram"
                   style={{ width: "24px", height: "24px" }}
                 />
@@ -76,7 +76,7 @@ function App() {
                 className="social-icon"
               >
                 <img
-                  src="src/photos/whatsapp_icon.png"
+                  src="/photos//whatsapp_icon.png"
                   alt="WhatsApp"
                   style={{ width: "24px", height: "24px" }}
                 />
@@ -87,7 +87,7 @@ function App() {
                 className="social-icon"
               >
                 <img
-                  src="src/photos/spotify_white_3.png"
+                  src="/photos//spotify_white_3.png"
                   alt="Spotify"
                   style={{ width: "24px", height: "24px" }}
                 />
@@ -111,7 +111,7 @@ function App() {
         <section id="sesiones">
           <div className="content">
             <h2>SESIONES</h2>
-            <img src="src/photos/cruz_ritual.jpg" alt="Cruz Ritual" />
+            <img src="/photos//cruz_ritual.jpg" alt="Cruz Ritual" />
             <div className="text">
               <p>
                 En nuestras sesiones, te acompañamos en un viaje de

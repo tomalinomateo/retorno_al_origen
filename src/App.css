@@ -120,7 +120,7 @@ nav ul.show li {
 /* -------- END  --------------------------- */
 
 #banner {
-  background: url("src/photos/cruz_sentada_mirando_cielo_mano.png") no-repeat
+  background: url("/photos//cruz_sentada_mirando_cielo_mano.png") no-repeat
     center top;
   background-position: center -150px;
   height: 100vh;
@@ -186,7 +186,7 @@ nav ul.show li {
 
 #sobre-mi {
   background-color: var(--quaternary-color);
-  background-image: url("src/photos/morphing-diamonds 2.svg");
+  background-image: url("/photos//morphing-diamonds 2.svg");
   background-repeat: repeat;
 }
 
