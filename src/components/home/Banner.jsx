@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Banner.css";
+
 const Banner = ({ scrollToSection }) => {
   return (
     <section id="banner">
