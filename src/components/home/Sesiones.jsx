@@ -1,4 +1,5 @@
 import React from "react";
+import "./Sesiones.css";
 
 const Sesiones = () => {
   return (

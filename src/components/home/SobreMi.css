@@ -1,0 +1,11 @@
+#sobre-mi {
+  background-color: var(--quaternary-color);
+  background-image: url("/photos/morphing-diamonds 2.svg");
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import Menu from "./Menu";
-
 import "./Header.css";
 
 const Header = ({ menuOpen, toggleMenu, closeMenu }) => {

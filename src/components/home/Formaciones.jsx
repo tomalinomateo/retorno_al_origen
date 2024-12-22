@@ -1,4 +1,5 @@
 import React from "react";
+import "./Formaciones.css";
 
 const Formaciones = () => {
   return (
